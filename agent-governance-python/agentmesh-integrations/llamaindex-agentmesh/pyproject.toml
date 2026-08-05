@@ -19,7 +19,7 @@ dependencies = [
     # caps `<1.0`, so without this direct pin CI resolves 0.14 and the smoke
     # import fails. Pin here so the editable install binds <0.13 directly.
     # See https://github.com/microsoft/agent-governance-toolkit/issues/2955
-    "llama-index-core>=0.12,<0.13",
+    "llama-index-core>=0.14.23,<0.15",
 ]
 
 [project.urls]
